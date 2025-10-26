@@ -11,7 +11,7 @@ Intelligent repair systems
 Damage detection
 
 Autonomous driving research
----
+
 
 # 🧠 Key Features
 
@@ -34,7 +34,7 @@ Frontend: Gradio
 Language: Python
 
 Environment: Google Colab
----
+
 # 🗂️ Dataset: CarParts-Seg
 
 Source: https://docs.ultralytics.com/datasets/segment/carparts-seg/
@@ -42,7 +42,7 @@ Source: https://docs.ultralytics.com/datasets/segment/carparts-seg/
 Description: Contains labeled car images with segmented regions for components like bumpers, doors, headlights, mirrors, etc.
 
 Structure:
----
+```
 carparts-seg/
 ├── images/
 │   ├── train/
@@ -51,7 +51,7 @@ carparts-seg/
 │   ├── train/
 │   └── val/
 ├── carparts-seg.yaml
----
+```
 
 # 🧩 Model Architecture
 
@@ -62,10 +62,14 @@ A CSP-based backbone for feature extraction
 PANet neck for multi-scale feature fusion
 
 A segmentation head to generate precise masks
+
 ---
+
 # 🧰 Requirements
 ``` pip install ultralytics gradio pillow ```
+
 ---
+
 # 🏁 Results
 
 Segmentation Accuracy: ~99% (custom-trained model)
