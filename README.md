@@ -23,8 +23,7 @@ Autonomous driving research
 
 🧾 Trained on the CarParts-Seg dataset
 
-📦 Exports trained model to multiple formats (ONNX, TorchScript, etc
----
+📦 Exports trained model to multiple formats (ONNX, TorchScript, etc)
 
 # 🧩 Tech Stack
 
